@@ -4,7 +4,6 @@ from django.shortcuts import render
 
 
 def index(request):
-
     data = [
         {'name': '紅牛車隊', 'rank': '1', 'pole': '3', 'champ': '7', 'point': '304',
             'icon': 'https://pbs.twimg.com/profile_images/1491441516568616972/F0dvwlIp_400x400.jpg', 'drivers': 'Verstappen & Pérez'},

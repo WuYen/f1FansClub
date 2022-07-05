@@ -1,0 +1,1 @@
+web: python manage.py migraate && gunicore f1FansClub.wsgi
