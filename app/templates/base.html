@@ -1,18 +1,80 @@
-<!DOCTYPE html>
-<html>
+{% load static %}
 
-<head>
+<!DOCTYPE html>
+<html style="font-size: 62.5%">
+  <head>
     <title>Python Getting Started on Heroku</title>
     <style type="text/css">
+      .header {
+        width: 100%;
+        background-color: #111111;
+        padding-left: calc(50% - 63.6rem);
+        padding-right: calc(50% - 63.6rem);
+      }
+
+      .header-content {
+        align-items: center;
+        display: flex;
+        padding-bottom: 1.6rem;
+        padding-top: 1.6rem;
+        position: relative;
+      }
+
+      .flex {
+        display: flex;
+      }
+      .header-text {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        color: aliceblue;
+      }
+      body,
+      button,
+      input,
+      select,
+      textarea {
+        font-size: 1.4rem;
+        line-height: 1.357;
+        font-family: 'segoe ui', 'microsoft jhenghei', 'microsoft mhei', stheititc, sans-serif;
+      }
+
+      .header-text .season::before {
+        content: '|';
+        display: inline;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        vertical-align: 0.2rem;
+      }
+      .leagueLogo {
+        margin-right: 1.2rem;
+      }
     </style>
-</head>
+    {% block style %} {% endblock %}
+  </head>
 
-<body>
-    <nav class="navbar navbar-default navbar-static-top navbar-inverse">
-        NAV BAR
+  <body>
+    <nav class="header">
+      <div class="flex header-content">
+        <div class="leagueLogo">
+          <div>
+            <!-- <img height="50" width="50" src="{% static 'f1.png'%}" alt="Formula 1" role="presentation" /> -->
+            <img
+              height="50"
+              width="50"
+              src="https://www.bing.com/th?id=OSB.pA_kvuoXocgPS5sDNiWD6Q--.png&amp;w=50&amp;h=50&amp;dpr=1&amp;pid=SANGAM"
+              alt="Formula 1"
+              role="presentation"
+            />
+          </div>
+        </div>
+        <div class="flex header-text">
+          <div>F1</div>
+          <div class="season">2022 年賽季</div>
+        </div>
+      </div>
     </nav>
-    {% block content %}
-    {% endblock %}
-</body>
-
+    {% block content %} {% endblock %}
+  </body>
 </html>
