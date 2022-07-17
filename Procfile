@@ -1,1 +1,1 @@
-web: gunicorn f1FansClub.wsgi
+web: gunicorn project.wsgi
