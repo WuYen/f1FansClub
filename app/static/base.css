@@ -1,0 +1,38 @@
+body {
+  --color-bg: #f7f7f7;
+  --color-fg: #111111;
+  --accent-color: #f7f7f7;
+  --button-text-color: #f7f7f7;
+}
+body.dark-theme {
+  --color-bg: #111111;
+  --color-fg: #f7f7f7;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-bg: #111111;
+    --color-fg: #f7f7f7;
+  }
+  /* Override dark mode with light mode styles if the user decides to swap */
+  body.light-theme {
+    --color-bg: #f7f7f7;
+    --color-fg: #111111;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-size: 1.4rem;
+  line-height: 1.357;
+  font-family: 'segoe ui', 'microsoft jhenghei', 'microsoft mhei', stheititc, sans-serif;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+}
+
+.flex {
+  display: flex;
+}
