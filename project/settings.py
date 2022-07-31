@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 import django_heroku
 import environ
+import dj_database_url
 
 env = environ.Env(
     # set casting, default value
@@ -84,13 +85,25 @@ WSGI_APPLICATION = "project.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",  # PostgreSQL
+        "NAME": env("DB_NAME"),  # 資料庫名稱
+        "USER": env("DB_USER"),  # 資料庫帳號
+        "PASSWORD": env("DB_PASSWORD"),  # 資料庫密碼
+        "HOST": env("DB_HOST"),  # Server(伺服器)位址
+        "PORT": env("DB_PORT"),  # PostgreSQL Port號
     }
 }
-
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES["default"].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
