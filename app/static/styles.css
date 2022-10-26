@@ -1,0 +1,276 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Common/Header.vue?vue&type=style&index=0&id=09e78ad1&scoped=true&lang=css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.flex[data-v-09e78ad1] {
+  display: flex;
+}
+.v-center[data-v-09e78ad1] {
+  align-items: center;
+}
+.separator[data-v-09e78ad1]::before {
+  content: "|";
+  display: inline;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  vertical-align: 0.2rem;
+}
+.logo[data-v-09e78ad1] {
+  max-width: 5rem;
+  line-height: 1;
+  top: 4px;
+  position: relative;
+  padding-left: 10px;
+}
+img[data-v-09e78ad1] {
+  max-width: 100%;
+  max-height: 100%;
+}
+.dark[data-v-09e78ad1] {
+  background-color: #111111;
+  color: #ffffff;
+}
+.grid[data-v-09e78ad1] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.link[data-v-09e78ad1] {
+  text-decoration: none;
+  color: #787878;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.router-link-active[data-v-09e78ad1] {
+  position: relative;
+  color: #000000;
+}
+.router-link-active[data-v-09e78ad1]::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #000000;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  font-size: 1.4rem;
+  line-height: 1.357;
+  font-family: "segoe ui", "microsoft jhenghei", "microsoft mhei", stheititc, sans-serif;
+}
+.content {
+  padding: 0px 10px;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Schedule/Card.vue?vue&type=style&index=0&id=5b32b8b0&scoped=true&lang=css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-5b32b8b0] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
+  margin-top: 20px;
+}
+.body[data-v-5b32b8b0] {
+  padding: 1.25rem;
+}
+.title[data-v-5b32b8b0] {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.title.sub[data-v-5b32b8b0] {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #787878;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Schedule/NextRound.vue?vue&type=style&index=0&id=39bb6573&scoped=true&lang=css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************/
+.flex[data-v-39bb6573] {
+  display: flex;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px hsla(0deg, 0%, 77%, 0.4);
+}
+.title[data-v-39bb6573] {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.title.sub[data-v-39bb6573] {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #787878;
+}
+.box[data-v-39bb6573] {
+  background-color: #e10600;
+}
+.pl10[data-v-39bb6573] {
+  padding-left: 10px;
+}
+.arrow[data-v-39bb6573] {
+  height: 100%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icons[data-v-39bb6573] {
+  color: white;
+}
+svg[data-v-39bb6573] {
+  position: relative;
+  transform: rotate(-90deg);
+  display: block;
+}
+.shift0[data-v-39bb6573] {
+  top: 15px;
+}
+.shift2[data-v-39bb6573] {
+  top: -15px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Schedule/Skeleton.vue?vue&type=style&index=0&id=d4098b36&scoped=true&lang=css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-d4098b36] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
+  margin-top: 20px;
+}
+.body[data-v-d4098b36] {
+  padding: 1.25rem;
+}
+.skeleton[data-v-d4098b36] {
+  animation: skeleton-loading-d4098b36 1s linear infinite alternate;
+}
+@keyframes skeleton-loading-d4098b36 {
+0% {
+    background-color: hsl(200deg, 20%, 80%);
+}
+100% {
+    background-color: hsl(200deg, 20%, 95%);
+}
+}
+.title.skeleton[data-v-d4098b36] {
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 350px;
+  height: 30px;
+  border-radius: 0.25rem;
+}
+.title.sub.skeleton[data-v-d4098b36] {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 150px;
+  height: 19px;
+  border-radius: 0.25rem;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Standing/Card.vue?vue&type=style&index=0&id=0229d4da&scoped=true&lang=css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-0229d4da] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
+  margin-top: 20px;
+}
+.body[data-v-0229d4da] {
+  padding: 1.25rem;
+}
+.title[data-v-0229d4da] {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.title.sub[data-v-0229d4da] {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #787878;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Standing/Skeleton.vue?vue&type=style&index=0&id=25cebed0&scoped=true&lang=css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-25cebed0] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
+  margin-top: 20px;
+}
+.body[data-v-25cebed0] {
+  padding: 1.25rem;
+}
+.skeleton[data-v-25cebed0] {
+  animation: skeleton-loading-25cebed0 1s linear infinite alternate;
+}
+@keyframes skeleton-loading-25cebed0 {
+0% {
+    background-color: hsl(200deg, 20%, 80%);
+}
+100% {
+    background-color: hsl(200deg, 20%, 95%);
+}
+}
+.title.skeleton[data-v-25cebed0] {
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 350px;
+  height: 30px;
+  border-radius: 0.25rem;
+}
+.title.sub[data-v-25cebed0] {
+  display: flex;
+}
+.title.sub .skeleton[data-v-25cebed0] {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100px;
+  height: 19px;
+  border-radius: 0.25rem;
+  margin-right: 10px;
+}

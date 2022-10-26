@@ -1,79 +1,16 @@
-{% extends "base.html" %} {% load static %} {% block style %}
-<style>
-  .row {
-    display: grid;
-    grid-template-columns: 125px auto;
-    align-items: center;
-  }
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>F1 fans club</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}" />
+    <script defer src="{% static 'main.js' %}"></script>
+  </head>
 
-  .team-icon {
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-  }
-
-  .team-content {
-  }
-
-  .left {
-  }
-
-  .team-name {
-    font-size: 1.4rem;
-  }
-
-  .team-rank {
-    color: gray;
-    font-weight: 600;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
-
-  .team-driver {
-    font-size: 0.6rem;
-  }
-
-  .info {
-    color: #9a9a9a;
-    font-weight: 500;
-    font-size: 0.4rem;
-  }
-
-  .info span {
-    font-size: 1.2rem;
-  }
-</style>
-{% endblock %} {% block content %}
-<div>
-  <!-- <a href="/" class="logo">
-    <img src="{% static 'f1.png'%}" />
-  </a> -->
-  <div class="container">
-    <div></div>
-    <div>
-      {% for team in teams %}
-      <div class="row">
-        <div class="left" style="padding: 1rem">
-          <img class="team-icon" src="{{team.icon}}" />
-        </div>
-        <div class="right team-content" style="display: flex; padding: 1rem; align-items: center">
-          <div style="width: 100px">
-            <div class="team-name">{{team.name}}</div>
-            <div class="team-rank">2022年 #<span>{{team.rank}}</span></div>
-            <!-- <div class="team-driver">車手 {{team.drivers}}</div> -->
-          </div>
-          <div style="border: 1px solid #c5c5c5; margin: 0rem 1rem; height: 80px"></div>
-          <div>
-            <div class="info"><span>{{team.pole}}</span> 桿位</div>
-            <div class="info"><span>{{team.champ}}</span> 站冠軍</div>
-            <div class="info"><span>{{team.point}}</span> 積分</div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div></div>
-  </div>
-</div>
-
-{% endblock %}
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
