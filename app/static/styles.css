@@ -33,7 +33,7 @@ img[data-v-09e78ad1] {
 }
 .grid[data-v-09e78ad1] {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0px 10px;
   margin-bottom: 20px;
 }
@@ -44,6 +44,7 @@ img[data-v-09e78ad1] {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  font-size: 0.8rem;
 }
 .router-link-active[data-v-09e78ad1] {
   position: relative;
@@ -124,6 +125,8 @@ body {
 }
 .box[data-v-39bb6573] {
   background-color: #e10600;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 .pl10[data-v-39bb6573] {
   padding-left: 10px;
@@ -185,7 +188,7 @@ svg[data-v-39bb6573] {
 .title.skeleton[data-v-d4098b36] {
   text-transform: capitalize;
   font-weight: 600;
-  width: 350px;
+  width: 100%;
   height: 30px;
   border-radius: 0.25rem;
 }
@@ -196,10 +199,10 @@ svg[data-v-39bb6573] {
   height: 19px;
   border-radius: 0.25rem;
 }
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Standing/Card.vue?vue&type=style&index=0&id=0229d4da&scoped=true&lang=css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
-.card[data-v-0229d4da] {
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Standing/DriverCard.vue?vue&type=style&index=0&id=3336e4ca&scoped=true&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-3336e4ca] {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -213,14 +216,43 @@ svg[data-v-39bb6573] {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
   margin-top: 20px;
 }
-.body[data-v-0229d4da] {
+.body[data-v-3336e4ca] {
   padding: 1.25rem;
 }
-.title[data-v-0229d4da] {
+.title[data-v-3336e4ca] {
   text-transform: capitalize;
   font-weight: 600;
 }
-.title.sub[data-v-0229d4da] {
+.title.sub[data-v-3336e4ca] {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #787878;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Standing/TeamCard.vue?vue&type=style&index=0&id=8253bce0&scoped=true&lang=css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card[data-v-8253bce0] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.5rem;
+  border-color: #c4c4c4;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px hsla(0deg, 0%, 76.9%, 0.4);
+  margin-top: 20px;
+}
+.body[data-v-8253bce0] {
+  padding: 1.25rem;
+}
+.title[data-v-8253bce0] {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.title.sub[data-v-8253bce0] {
   margin-top: 10px;
   font-size: 14px;
   color: #787878;
@@ -259,7 +291,7 @@ svg[data-v-39bb6573] {
 .title.skeleton[data-v-25cebed0] {
   text-transform: capitalize;
   font-weight: 600;
-  width: 350px;
+  width: 100%;
   height: 30px;
   border-radius: 0.25rem;
 }
